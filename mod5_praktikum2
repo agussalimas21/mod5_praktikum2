@@ -1,0 +1,11 @@
+void setup () {
+  Serial.begin(100000);
+}
+ void loop (){
+  Serial.print(0x00);
+  Serial.print(0x01);
+  Serial.print(0xFF);
+  Serial.print(0x1F);
+  Serial.print(0x29);
+  delay(2000);
+ }
